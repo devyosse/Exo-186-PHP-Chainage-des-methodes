@@ -12,3 +12,8 @@
  *
  * 5. Utilisez le chaînage des méthodes pour mettre à jour le nom et le prix en une seule ligne.
  */
+
+
+$vod = new VODService("Vidéos", "50$");
+
+$vod->setName('Doe')->setPrice('10$');
